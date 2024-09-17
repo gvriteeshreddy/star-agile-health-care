@@ -3,7 +3,7 @@ pipeline {
 
     tools {
         // Use the configured Maven version (ensure M2_HOME is set correctly in Jenkins global tool config)
-        maven "M2_HOME"
+        maven "maven"
     }
 
     stages {
